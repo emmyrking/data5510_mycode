@@ -1,0 +1,4 @@
+3. Explain the process of deleting a node from a binary search tree in Python. 
+Discuss how you would handle different cases, such as deleting a node with one, or two children. 
+Additionally, explain any potential challenges or edge cases that may arise during the deletion 
+process and how you would address them. 
