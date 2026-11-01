@@ -1,4 +1,5 @@
-from print_tree import * # print_tree.py contains a print pretty version of a bst - got from data5510_fall2026 code
+# print_tree.py contains a print pretty version of a bst - got from data5510_fall2026 code
+from print_tree import * 
 
 # define funtion to insert a value
 def insert(node, key):

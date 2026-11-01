@@ -1,4 +1,5 @@
-from easy import * # import my work from the easy.py homework assignment so I can use the tree I already created
+# import my work from the easy.py homework assignment so I can use the tree I already created
+from easy import * 
 
 # define function to serach for a value in the tree
 def find(node, key):

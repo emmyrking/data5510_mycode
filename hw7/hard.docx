@@ -2,3 +2,13 @@
 Discuss how you would handle different cases, such as deleting a node with one, or two children. 
 Additionally, explain any potential challenges or edge cases that may arise during the deletion 
 process and how you would address them. 
+
+When you try to delete a node from a binary search tree in python, the first thing you need to do is to find the
+node that matches the number you are trying to delete. Once the number is found, there are different cases depending 
+on how many children that specific node has. A node with no other children would just be deleted and that node would
+be removed. If the node had one child, then the child node replaces the deleted node. Lastly, if there is a node 
+with two children that needs to be deleted, then either the smallest value in the right subtree or the largest value
+in the left subtree would replace the deleted node and that node would be deleted if it had no children. If that node
+was taken from the largest number on the left and it had a left node child, then that child would replace the node 
+that is replacing the deleted node. A potential challenge is if we couldn't find the node wanting to be deleted,
+so I would just add try and except code and if the number is not found, then the program with still run.
